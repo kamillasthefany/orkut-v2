@@ -1,0 +1,21 @@
+{
+  "name": "orkut-v2",
+  "version": "2",
+  "description": "O inimigo agora é outro",
+  "main": "index.js",
+  "author": "Eu mesma ",
+  "license": "MIT",
+  "scripts": {
+    "dev" : "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.2.0",
+    "nodemon": "^2.0.12"
+  }
+}
