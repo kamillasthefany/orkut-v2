@@ -1,17 +1,12 @@
-// import logo from './logo.svg';
-//import LoginPage from './pages/Login';
-// import { ThemeProvider } from 'styled-components';
+import React from 'react';
 import Home from './pages/Home';
-// import './App.css';
-import { GlobalStyle } from './styles';
-// import theme from './themes/index';
+import { MainContainer } from './styles';
 
 export function App() {
   return (
-
-
-    <Home />
-
+    <MainContainer>
+      <Home />
+    </MainContainer>
   );
 }
 

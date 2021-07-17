@@ -39,4 +39,17 @@ export const GlobalStyle = createGlobalStyle`
   ${AlurakutStyles}
 `
 
-export const MainContainer = styled.div` `;
+export const MainContainer = styled.div`
+  font-family: sans-serif;
+  background-color: #D9D9D9;
+  min-height: 100vh;
+  
+/* 
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  } */
+  
+  ${AlurakutStyles}
+`;
