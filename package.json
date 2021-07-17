@@ -1,12 +1,14 @@
 {
   "name": "orkut-v2",
-  "version": "2",
+  "version": "2.0.0",
   "description": "O inimigo agora é outro",
   "main": "index.js",
   "author": "Eu mesma ",
   "license": "MIT",
   "scripts": {
-    "dev" : "nodemon src/server.js"
+    "client": "npm start --prefix client",
+    "server": "nodemon src/server.js",
+    "dev": "concurrently \"npm run server\" \" npm run client\""
   },
   "dependencies": {
     "express": "^4.17.1",
@@ -15,7 +17,8 @@
     "sequelize": "^6.6.5"
   },
   "devDependencies": {
-    "sequelize-cli": "^6.2.0",
-    "nodemon": "^2.0.12"
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.12",
+    "sequelize-cli": "^6.2.0"
   }
 }
