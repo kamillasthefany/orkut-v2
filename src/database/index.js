@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-const dbConfig = require('../config/databaseoriginal');
+const dbConfig = require('../config/database');
 const dbHeroku = require('../database/sequilize');
 
 const User = require('../models/User');
