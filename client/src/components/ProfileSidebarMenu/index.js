@@ -12,30 +12,30 @@ export function ProfileSidebarMenu() {
     <ProfileSidebarMenuWrapper>
       <nav>
         <a href="/">
-          <img alt="imagem" src={User.src} />
+          <img alt="imagem" src={User} />
           Perfil
         </a>
         <a href="/">
-          <img alt="imagem" src={Book.src} />
+          <img alt="imagem" src={Book} />
           Recados
         </a>
         <a href="/">
-          <img alt="imagem" src={Camera.src} />
+          <img alt="imagem" src={Camera} />
           Fotos
         </a>
         <a href="/">
-          <img alt="imagem" src={Sun.src} />
+          <img alt="imagem" src={Sun} />
           Depoimentos
         </a>
       </nav>
       <hr />
       <nav>
         <a href="/">
-          <img alt="imagem" src={Plus.src} />
+          <img alt="imagem" src={Plus} />
           GitHub Trends
         </a>
         <a href="/logout">
-          <img alt="imagem" src={Logout.src} />
+          <img alt="imagem" src={Logout} />
           Sair
         </a>
       </nav>

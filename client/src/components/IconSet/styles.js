@@ -6,6 +6,8 @@ export const IconSetList = styled.ul`
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  list-style: none;
+  padding-left: 0;
   li {
     font-size: 12px;
     color: #5A5A5A;

@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import Search from '../../assets/icons/search.svg';
+// import Search from '../../assets/icons/search.svg';
 const BASE_URL = 'http://alurakut.vercel.app/';
 
 export const MenuWrapper = styled.header`
@@ -116,6 +116,6 @@ export const MenuLogo = styled.img`
   background-color: #ffffff;
   padding: 9px 14px;
   border-radius: 1000px;
-  height: 34px;
-  margin-right: 16px;
+  max-height: 1rem;
+  margin-right: 1rem;
 `;

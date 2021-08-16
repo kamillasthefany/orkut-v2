@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 // import NextLink from 'next/link';
 import { MenuWrapper, MenuLogo } from './styles';
 import LogoTeste from '../../assets/icons/logo.svg';
-import { ReactComponent as Logo } from '../../assets/icons/logo.svg';
 import MenuOpen from '../../assets/icons/menu-open.svg';
 import MenuClosed from '../../assets/icons/menu-closed.svg';
 import { ProfileSidebarMenu } from '../ProfileSidebarMenu';
@@ -22,9 +21,7 @@ export function Menu({ githubUser }) {
   return (
     <MenuWrapper isMenuOpen={isMenuOpen}>
       <div className="container">
-        {console.log('logo', Logo)}
-        {console.log('logo teste', LogoTeste)}
-        {/* <MenuLogo src={Logo.src} /> */}
+        <MenuLogo src={LogoTeste} />
 
         {/* <nav style={{ flex: 1 }}>
           {[{ name: 'Inicio', slug: '/' }, { name: 'Amigos', slug: '/amigos' }, { name: 'Comunidades', slug: '/comunidades' }].map((menuItem) => (
@@ -44,8 +41,8 @@ export function Menu({ githubUser }) {
         </nav>
 
         <button onClick={() => setMenuState(!isMenuOpen)}>
-          {isMenuOpen && <img alt="imagem" src={MenuOpen.src} />}
-          {!isMenuOpen && <img alt="imagem" src={MenuClosed.src} />}
+          {isMenuOpen && <img alt="imagem" src={MenuOpen} />}
+          {!isMenuOpen && <img alt="imagem" src={MenuClosed} />}
         </button>
       </div>
 
